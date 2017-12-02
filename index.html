@@ -1,0 +1,43 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="css/me.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono:400,700" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="content">
+		<div class="top">
+			<img class="profile-pic" src="img/me.jpg">
+			<div class="info">
+				<h1>Greetings!</h1>
+				<p>I'm Carl Johnson. I am a <b>freelance web developer</b> living in Chicago, Illinois.</p>
+				<p>During business hours, you'll find me working @ <a href="http://springcm.com">SpringCM</a> as a Front End Developer.</p>
+				<p>I enjoy playing sports (soccer and pick-up hoops), getting whooped on the mats at Brazillian Jiu-Jitsu class, reading books, and playing my guitar.</p>
+				<p>Check out some of <a href="work.html">my previous work</a>.</p>
+			</div>
+		</div>
+		<div class="bottom">
+			<button class="cta" onclick="showContactInfo()">Let me help with your next idea.</button>
+			<div class="cta-text">
+				Need some help? Drop me a line at <a href="mailto:hello@carljohnson.me">hello@carljohnson.me</a> and we'll be in touch.
+			</div>
+			<ul class="social">
+					<li title="Github: My code graveyard"><a href="http://github.com/carlcodes"><i class="fa fa-github-alt"></i></a></li>
+					<li title="Twitter: Shower thoughts"><a href="http://twitter.com/jarl_cohnson"><i class="fa fa-twitter"></i></a></li>
+					<li title="LinkedIn: Where recruiters message me"><a href="http://linkedin.com/in/carljohnson5/"><i class="fa fa-linkedin"></i></a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+<script>
+
+function showContactInfo() {
+	document.querySelector('.cta').style.display = 'none';
+	document.querySelector('.cta-text').style.display = 'block';
+}
+
+</script>
+</html>

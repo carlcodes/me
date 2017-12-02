@@ -1,0 +1,150 @@
+body {
+	font-family: Roboto Mono;
+	color: #222222;
+}
+
+h1, h2, h3 {
+	letter-spacing: 1px;
+	font-family: Roboto;
+}
+
+h1 {
+	font-size: 36px;
+	margin-top: 0;
+}
+
+button.cta {
+	background: #e74c3c;
+	color: white;
+	padding: 20px;
+	font-size: 18px;
+	font-family: Roboto;
+	letter-spacing: 1px;
+	margin: 0 auto;
+	width: 330px;
+	display: block;
+	border: 2px solid #c0392b;
+	cursor: pointer;
+	height: 65px;
+}
+
+button.cta:hover {
+	opacity: .85;
+}
+
+.bottom {
+	text-align: center;
+	width:500px;
+	margin: 0 auto;
+	margin-top:60px;
+}
+
+.social {
+	margin-top: 60px;
+	list-style: none;
+	padding:0;
+}
+
+.social li {
+	display: inline-block;
+}
+
+.social i {
+	margin: 0;
+	width: auto;
+	font-size: 26px;
+	padding: 10px;
+	color: #bdc3c7;
+}
+
+.cta-text {
+	height: 65px;
+	display: none;
+}
+
+.content {
+	width: 850px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+.content .top {
+	display: flex;
+}
+
+.profile-pic {
+	height: 300px;
+}
+.info {
+	display: inline-block;
+	margin-left: 60px;
+}
+
+a {
+	color: #3498db;
+}
+
+a:hover {
+	opacity: .7;
+}
+
+section article {
+	display: flex;
+}
+
+section {
+	padding: 60px;
+	border-left: 6px solid;
+	margin: 90px 0;
+	background: whitesmoke;
+}
+
+section p:first-child {
+	margin-top:0;
+}
+section header {
+	display: flex;
+	margin-bottom: 40px;
+}
+
+section h1 {
+	margin:0;
+	line-height: 1;
+}
+
+section .date {
+	text-transform: uppercase;
+	color: #bdc3c7;
+	letter-spacing: 1px;
+	flex-grow: 1;
+	text-align: right;
+	align-self: flex-end;
+}
+
+section.spring {
+	border-left-color: #f7b717;
+}
+
+section.saggezza {
+	border-left-color: #e74c3c;
+}
+
+section.research {
+	border-left-color: #258c75;
+}
+
+#research-pic {
+	height: 200px;
+	margin-left: 60px;
+}
+
+#masterpass-pic {
+	height: auto;
+	width: 300px;
+	margin-right: 60px;
+}
+
+#spring-pic {
+	height: 150px;
+	margin-left: 60px;
+}
