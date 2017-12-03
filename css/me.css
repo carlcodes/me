@@ -63,7 +63,7 @@ button.cta:hover {
 }
 
 .content {
-	width: 850px;
+	max-width: 850px;
 	margin: 0 auto;
 	padding-top: 100px;
 }
@@ -147,4 +147,61 @@ section.research {
 #spring-pic {
 	height: 150px;
 	margin-left: 60px;
+}
+
+
+@media (max-width: 650px) {
+	.content {
+		margin:12px;
+		padding-top: 60px;
+	}
+	.top {
+		flex-direction: column;
+	}
+	.profile-pic {
+		height: auto;
+		width: 100%;
+		max-width: 350px;
+		align-self: center;
+		margin-bottom: 60px;
+	}
+	.info {
+		margin:0;
+	}
+	.bottom {
+		width: 100%;
+	}
+	.bottom button.cta {
+		width: 100%;
+	}
+	button.cta, .cta-text {
+		height: 86px;
+	}
+
+	section p:first-child {
+		margin-top: 16px;
+	}
+	section {
+		padding: 20px;
+	}
+	section header {
+		flex-direction: column;
+	}
+	section header .date {
+		align-self: flex-start;
+	}
+	section article {
+		flex-direction: column-reverse;
+	}
+	section.saggezza article  {
+		flex-direction: column;
+	}
+	section article img {
+		margin: 0 !important;
+		width: 100% !important;
+		height: auto !important;
+	}
+	section header {
+		margin-bottom: 20px;
+	}
 }
