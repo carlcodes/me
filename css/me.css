@@ -153,7 +153,7 @@ section.research {
 @media (max-width: 650px) {
 	.content {
 		margin:12px;
-		padding-top: 60px;
+		padding-top: 20px;
 	}
 	.top {
 		flex-direction: column;
@@ -163,7 +163,7 @@ section.research {
 		width: 100%;
 		max-width: 350px;
 		align-self: center;
-		margin-bottom: 60px;
+		margin-bottom: 20px;
 	}
 	.info {
 		margin:0;
@@ -183,6 +183,7 @@ section.research {
 	}
 	section {
 		padding: 20px;
+		margin: 30px 0;
 	}
 	section header {
 		flex-direction: column;
