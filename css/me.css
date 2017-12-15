@@ -74,6 +74,7 @@ button.cta:hover {
 
 .profile-pic {
 	height: 300px;
+	flex-shrink: 0;
 }
 .info {
 	display: inline-block;
@@ -96,7 +97,6 @@ section {
 	padding: 60px;
 	border-left: 6px solid;
 	margin: 90px 0;
-	background: whitesmoke;
 }
 
 section p:first-child {
@@ -132,21 +132,45 @@ section.saggezza {
 section.research {
 	border-left-color: #258c75;
 }
+section.amazon {
+	border-left-color: #ff9900;
+}
+section.conf {
+	border-left-color: #27ae60;
+}
+
+section h1 .fa {
+	font-size: 24px;
+	margin-left: 6px;
+}
+
+section img {
+	height: 200px;
+	margin-right: 60px;
+	flex-shrink: 0;
+}
 
 #research-pic {
 	height: 200px;
 	margin-left: 60px;
+	margin-right:0;
 }
 
 #masterpass-pic {
-	height: auto;
-	width: 300px;
-	margin-right: 60px;
+	height: 175px;
 }
+
 
 #spring-pic {
 	height: 150px;
 	margin-left: 60px;
+	margin-right:0;
+}
+
+#sparta-pic {
+	height: 175px;
+	margin-left: 60px;
+	margin-right:0;
 }
 
 
@@ -155,9 +179,11 @@ section.research {
 		margin:12px;
 		padding-top: 20px;
 	}
+
 	.top {
 		flex-direction: column;
 	}
+
 	.profile-pic {
 		height: auto;
 		width: 100%;
@@ -165,15 +191,19 @@ section.research {
 		align-self: center;
 		margin-bottom: 20px;
 	}
+
 	.info {
 		margin:0;
 	}
+
 	.bottom {
 		width: 100%;
 	}
+
 	.bottom button.cta {
 		width: 100%;
 	}
+
 	button.cta, .cta-text {
 		height: 86px;
 	}
@@ -181,27 +211,36 @@ section.research {
 	section p:first-child {
 		margin-top: 16px;
 	}
+
 	section {
 		padding: 20px;
 		margin: 30px 0;
 	}
+
 	section header {
 		flex-direction: column;
 	}
+
 	section header .date {
 		align-self: flex-start;
 	}
+
 	section article {
 		flex-direction: column-reverse;
 	}
-	section.saggezza article  {
+
+	section.saggezza article,
+	section.amazon article,
+	section.conf article {
 		flex-direction: column;
 	}
+
 	section article img {
 		margin: 0 !important;
 		width: 100% !important;
 		height: auto !important;
 	}
+
 	section header {
 		margin-bottom: 20px;
 	}
