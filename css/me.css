@@ -13,32 +13,6 @@ h1 {
 	margin-top: 0;
 }
 
-button.cta {
-	background: #e74c3c;
-	color: white;
-	padding: 20px;
-	font-size: 18px;
-	font-family: Roboto;
-	letter-spacing: 1px;
-	margin: 0 auto;
-	width: 330px;
-	display: block;
-	border: 2px solid #c0392b;
-	cursor: pointer;
-	height: 65px;
-}
-
-button.cta:hover {
-	opacity: .85;
-}
-
-.bottom {
-	text-align: center;
-	width:500px;
-	margin: 0 auto;
-	margin-top:60px;
-}
-
 .social {
 	margin-top: 60px;
 	list-style: none;
@@ -194,18 +168,6 @@ section img {
 
 	.info {
 		margin:0;
-	}
-
-	.bottom {
-		width: 100%;
-	}
-
-	.bottom button.cta {
-		width: 100%;
-	}
-
-	button.cta, .cta-text {
-		height: 86px;
 	}
 
 	section p:first-child {

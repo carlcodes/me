@@ -7,6 +7,15 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono:400,700" rel="stylesheet">
 	<title>Carl Johnson</title>
 	<link rel="icon" href="img/icon.png">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111357161-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-111357161-1');
+	</script>
 </head>
 
 <body>
@@ -23,25 +32,6 @@
 
 			</div>
 		</div>
-		<div class="bottom">
-			<button style="display:none;" class="cta" onclick="showContactInfo()">Get in touch</button>
-			<div class="cta-text">
-				Need some help? Drop me a line at <a href="mailto:hello@carljohnson.me">hello@carljohnson.me</a> and we'll be in touch.
-			</div>
-			<ul class="social">
-					<li title="Github: My code graveyard"><a href="http://github.com/carlcodes"><i class="fa fa-github-alt"></i></a></li>
-					<li title="Twitter: Shower thoughts"><a href="http://twitter.com/jarl_cohnson"><i class="fa fa-twitter"></i></a></li>
-					<li title="LinkedIn: Where recruiters message me"><a href="http://linkedin.com/in/carljohnson5/"><i class="fa fa-linkedin"></i></a></li>
-			</ul>
-		</div>
 	</div>
 </body>
-<script>
-
-function showContactInfo() {
-	document.querySelector('.cta').style.display = 'none';
-	document.querySelector('.cta-text').style.display = 'block';
-}
-
-</script>
 </html>
